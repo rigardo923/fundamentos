@@ -20,7 +20,9 @@ public class FundamentosApplication  {
 
 	//Constructor
 	// @Autowired no es obligatorio cuando hay un solo constructor.
-	/*public FundamentosApplication( @Qualifier("componentImplement") CommandDependency commandDependency){
+
+	/*
+	public FundamentosApplication(@Qualifier("componentImplement") CommandDependency commandDependency){
 		this.commandDependency = commandDependency;
 	}*/
 	public static void main(String[] args) {
