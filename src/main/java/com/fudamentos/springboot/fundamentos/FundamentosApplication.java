@@ -14,7 +14,7 @@ public class FundamentosApplication implements CommandLineRunner {
 
 	//Constructor
 	// @Autowired no es obligatorio cuando hay un solo constructor.
-	public FundamentosApplication(@Qualifier("ComandImplement") CommandDependency commandDependency){
+	public FundamentosApplication(@Qualifier("componentImplement") CommandDependency commandDependency){
 		this.commandDependency = commandDependency;
 	}
 	public static void main(String[] args) {
